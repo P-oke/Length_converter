@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="unitconverter.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="unitconverter">LENGTH CONVERTER</div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#">milimeters</a> </li>
+                <li><a href="#">inches</a></li>
+                <li><a href="#">feet</a></li>
+                <li><a href="#">yards</a></li>
+                <li><a href="#">miles</li>
+            </ul>
+        </div> 
+
+    </nav>
+    <form action="#" class="box">
+        <h1>Converter</h1>
+        
+            <input id="p" placeholder="input value in metres">
+            <button onclick="calculate()"> convert </button>
+            
+            <div class="results">
+                <span>millimeters</span>
+                <input id="result" class="result" placeholder="milimeters">
+            
+                <span>inches</span>
+                <input id="inch" class="result" placeholder="inches">
+
+                <span>feet</span>
+                <input id="ft" class="result" placeholder="feet">
+
+                <span>yards</span>
+                <input id="yards" class="result" placeholder="yards">
+
+                <span>miles</span>
+                <input id="miles" class="result" placeholder="miles">
+
+          </div>    
+    </form>
+
+    <script src="unitconverter.js"></script>
+</body>
+</html>
